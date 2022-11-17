@@ -1,0 +1,549 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;700&family=Monoton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.phan1{
+    background:#0C0F0C;
+    color: aliceblue;
+    height: 1000px;
+    width: 100%;
+    
+}
+#menu ul li{
+    display: inline;
+    overflow-y: scroll;
+            scroll-behavior: smooth;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400px;
+    margin-left: 50px;
+}
+#menu ul li:hover{
+    visibility: visible;
+    color: #00FF88;
+    
+}
+#menu ul{
+    list-style: none;
+    margin-right: 550px;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    align-content: flex-end;
+    font-size: 10px;
+    color: aliceblue;
+   
+    position: relative;
+}
+
+#menu p{
+   font-family: 'Playfair Display', serif; 
+}
+#banner{
+    
+    color: aliceblue;
+    padding : 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#banner h5{
+    color: #FF6B00;
+    writing-mode: vertical-rl;
+    font-family: 'K2D', sans-serif;
+}
+
+#banner .right img{
+    width: 500px;
+    margin-right: 110px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#banner .right img:hover{
+    transform: scale(1.2);
+}
+#banner .right p{
+   font-family: 'K2D', sans-serif; 
+    padding-bottom: 20px;
+    
+}
+
+#banner .right hr{
+     width: 100px;
+    background:#00FF5C;
+    height: 15px;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#banner .left {
+    margin-left:50px;
+}
+#banner .left h1{
+    font-size:80px;
+    font-family: 'Playfair Display', serif;
+    
+}
+#banner .left h1:hover{
+    color: #00FF9B;
+}
+#banner .left p{
+    padding-top:50px;
+    font-size: 30px;
+    
+    color: #E2E2E2;
+     font-family: 'K2D', sans-serif;
+    width: 40%;
+}
+#banner .left p:hover{
+    color: #00FFE1;
+}
+#banner .left .icon1{
+    font-size: 70px;
+    padding-left: 50px;
+}
+#banner .left .iconbicycle{
+    color: white;
+    font-size: 50px;
+    padding-top: 40px;
+}
+#banner .left hr{
+    width: 100px;
+    background: #FF6500;
+    height: 25px;
+    border-style: none;
+    border-radius: 10px;
+}
+#banner  .left .muitenlenxuong{
+    font-size: 100px;
+    animation: lenxuong 4s infinite;
+    padding-top: 50px;
+    color: #FF5800;
+    margin-left: 50px;
+    
+}
+@keyframes lenxuong{
+	0%{transform:translateY(0px);}
+	100%{transform: translateY(20px);}
+}
+.phan2{
+    color: black;
+    width:100%;
+    height:800px;
+    background: #FFFFFF;
+    
+    
+}
+.phan2 .iconchat{
+    font-size: 100px;
+    
+    float: left;
+    left: 500px;
+    position: relative;
+    top: 100px;
+}
+#about{
+    
+    height:800px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    display: flex;
+}
+#about .meright{
+    width: 30%;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+#about .meright h3{
+    font-size: 40px;
+    
+    font-weight:50px;
+    margin-bottom:30px;
+    color: #1C0000;
+    font-family: 'K2D', sans-serif;
+}
+#about .meright p{
+    font-size: 20px;
+    font-weight: 100px;
+   font-family: 'K2D', sans-serif;
+}
+#about .meleft{
+    text-align: center;
+}
+#about .meleft h3{
+    font-size: 30px;
+    font-family: 'K2D', sans-serif;
+    padding-top: 30px;
+}
+#about .meleft h5{
+    font-size: 20px;
+    font-family: 'K2D', sans-serif;
+    color:#7B0F00;
+    padding-top: 20px;
+}
+#about .meleft img{
+    border-radius: 10px;
+     margin-top: 15px;
+}
+#about .meleft .borderimg{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+#about .meleft .borderimg:hover{
+    background: #000000;
+    visibility: visible;
+    transform: scale(1.1);
+}
+#about .meleft .box  {
+  font-size: 50px;
+ 
+  margin: 30px;  
+    
+}
+
+.phan2 ul{
+   list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+ font-family: 'K2D', sans-serif;
+  
+}
+.phan2 ul li{
+    padding: 0px 50px;
+}
+.menuphan3 ul{
+   list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+ font-family: 'K2D', sans-serif;
+  position: relative;
+    color: white;
+    top: 50px;
+    
+}
+.menuphan3 ul li{
+    padding: 0px 50px;
+}
+.menuphan4> ul{
+   list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+ font-family: 'K2D', sans-serif;
+  
+}
+.menuphan4 ul li{
+    padding: 0px 50px;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.phan2 .phan2topright{
+    font-family: 'K2D', sans-serif;
+    float: right;
+    padding: 0 10px ;
+}
+.phan2 .phan2topright hr{
+    width: 30px;
+    height:5px;
+    border-radius: 6px;
+    background: #FF3F00;
+    border-style: none;
+}
+#about hr{
+     width: 10px;
+    background:#00FF5C;
+    height: 100px;
+    border-style: none;
+    border-radius: 10px;
+    
+}
+#about hr:hover{
+     animation-name: rotate;
+  animation-duration: 0.7s;
+}
+#about .meright .iconins{
+    font-size: 40px;
+    margin-top: 40px;
+    color: black;
+    padding: 0 10px;
+}
+#about .meright .iconins:hover{
+     animation-name: rotate;
+  animation-duration: 0.7s;
+    color: #CA00A7;
+}
+ #about .meright .muitenlenxuong {
+   animation: lenxuong 4s infinite;
+   font-size: 50px;
+    
+    color: #FF6B00;
+     
+}
+#about .meright .muitenlenxuong:hover{
+    visibility: visible;
+    color: #001EFF;
+   
+}
+#fortfolio{
+    background-image: url("../image/reign-abarintos--cKXtsJWU-I-unsplash.jpg");
+    background-repeat: no-repeat;
+     background-size:100%;       
+    height: 130vh;
+    margin: 0 auto;
+    color:  white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+#fortfolio .contentright h1{
+    font-size: 70px;
+     font-family: 'Playfair Display', serif;
+    padding: 20px;
+}
+#fortfolio .contentright p{
+    padding: 30px;
+    font-size: 20px;
+    color: antiquewhite;
+   
+    border-radius: 50px;
+     font-family: 'K2D', sans-serif;
+}
+
+#fortfolio .contentright i{
+    font-size: 20px;
+    
+     animation: lenxuong 2s infinite;
+}
+#fortfolio .contentright img{
+    border-radius: 3px;
+}
+#fortfolio .contentright img:hover{
+     transform: scale(1.1);
+}
+#fortfolio .contentright p:hover{
+    visibility: visible;
+    color: #1CFF00;
+    transform: scale(1.5);
+   }
+
+#fortfolio .contentleft ul{
+    list-style:circle;
+      font-family: 'K2D', sans-serif;
+    font-size: 50px;
+}
+#fortfolio .contentleft ul li{
+    padding : 20px;
+    transition: transform .2s;
+    }
+#fortfolio .contentleft p{
+     font-family: 'K2D', sans-serif;
+    font-size: 70px;
+     padding-bottom: 30px;
+    color: antiquewhite;
+}
+
+.contentleft ul li:hover{
+transform: scale(1.5);
+    visibility: visible;
+    color: aqua;
+}
+.phan4{
+  width:100%;
+    height: 450px;
+   display: flex;
+    justify-content: space-around;
+    aligh-item: center;
+    padding: 150px 0px;
+    
+}
+.phan4 hr{
+    width: 10%;
+    height: 5px;
+    background:none;
+    border-radius: 40px;
+    border-style: none;
+}
+.phan4 #contact1{
+    display: flex;
+}
+.phan4 #contact1 h1{
+    font-size: 100px;
+      font-family: 'K2D', sans-serif;
+      writing-mode: vertical-rl;
+    margin-left: 70px;
+    color: #250000;
+    transition: transform .2s;
+}
+.phan4 #contact1 h1:hover{
+    transform: scale(1.5);
+    color: #EB00FF;
+}
+#contact2{
+    margin-left: 350px;
+}
+#contact2 ul{
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 175% */
+font-family: 'K2D', sans-serif;
+list-style: none;
+color:#565656;
+   
+}
+#contact2 ul li{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 186% */
+padding: 20px;
+
+color:#000000;
+padding-top:22px;
+}
+#contact2 ul li:hover{
+    transform: scale(1.1);
+    color:#E500FF;
+}
+#contact2{
+      display: flex;
+     margin: 0 auto;
+}
+#contact2 .icon2{
+    padding: 10px;
+    font-size: 30px;
+    color: #3C0001;
+}
+#contact2 .icon2:hover{
+     animation-name: rotate;
+  animation-duration: 0.7s;
+    color: #CA00A7;
+}
+#contact2:hover{
+    transform: scale(1.1);
+}
+#contact3{
+    width: 8%;
+    text-align: center;
+}
+#contact3:hover{
+        transform: scale(1.1);
+    color:#F200FF;
+}
+#contact3 h3{
+    font-size:20px;
+    font-family: 'K2D', sans-serif;
+    color:#220000;
+}
+.phan4 .iconins{
+    font-size:30px;
+    padding: 20px;
+}
+.phan4 .iconins:hover{
+         animation-name: rotate;
+  animation-duration: 0.7s;
+}
+#contact1 hr{
+     writing-mode: vertical-rl;
+    width: 2px;
+    height: 100%;
+    background: black;
+}
+        .buttom{
+            width: 50px;
+            height: 50px;
+            background: black;
+            position:fixed;
+            bottom:20px;
+            border-radius: 50px;
+            float: right;
+            right: 40px;
+           border: 1px thin black;
+        }
+.buttom:hover{
+    transform: scale(1.1);
+    background:#EB00FF;
+}
+.buttom i{
+    margin: 16px;
+    color:aliceblue;
+    font-size: 20px;
+}
+main{
+    scroll-behavior: smooth;
+            position: relative;
+}
+.phan3 .muitenlenxuong{
+    font-size: 50px;
+    color:white;
+    left: 700px;
+     position: relative;
+    bottom:60px;
+     animation: lenxuong 2s infinite;
+    
+    }
+.phan2 .muitenlenxuong{
+    font-size: 50px;
+    color:black;
+    left: 700px;
+     position: relative;
+    bottom:60px;
+     animation: lenxuong 2s infinite;
+    
+    
+    
+}
+.phan1 .muitenlenxuong{
+    font-size: 50px;
+    color:white;
+    left: 700px;
+     position: relative;
+    top:70px;
+     animation: lenxuong 2s infinite;
+    
+    
+    
+}
+.footer{
+    display:flex;
+   background:#0C0F0C;
+    justify-content: space-around;
+    height: 100px;
+    color: white;
+    align-items: center;
+    padding: 0 50px;
+      font-family: 'K2D', sans-serif;
+}
+.footer hr{
+    width: 70px;
+    height: 5px;
+    background: #0EF100;
+    border-style: none;
+    border-radius: 20px;
+    
+}
